@@ -9,3 +9,6 @@ class Anagram
     possible_anagrams.select do |possible_anagram|
       possible_anagram.split("") == @word.split("")
     end
+  end
+  
+end
